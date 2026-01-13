@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical Activity 2</title>
+    <style>
+        body {
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background-color: #9eac9f;
+        }
+
+        .container {
+            background-color: rgb(255, 255, 255); 
+            padding: 15px 35px;            
+            border-radius: 6px; 
+            border-color: #1d5223; 
+            border-style: dotted; 
+            display: inline-block;
+
+        }
+    </style>
+</head>
+<body>
+    <h1 style="background-color:#9eac9f;padding: 15px 35px;border-radius: #ffffff;border-style: dotted;text-align: center;color: #ffffff;font-style: italic;">History of Javascript</h1>
+    <div class="container">
+        <div id="output"></div><br>
+        <div id="output2"></div><br>
+        <div id="output3"></div><br>
+        <div id="output4"></div><br>
+        <div id="output5"></div><br>
+        <div id="output6"></div><br>
+        <div id="output7"></div><br>
+    </div>
+    <script>
+
+        console.log('reference: GeeksforGeeks. (2025, July 27). History of JavaScript. GeeksforGeeks. https://www.geeksforgeeks.org/javascript/history-of-javascript/');
+
+        let desc = 'In May 1995, Brendan Eich created JavaScript, a programming language, in just ten days. Initially developed to enhance interactivity on websites, it was designed to add dynamic features to static HTML pages, primarily for client-side development.';
+        let p1 = 'In 1995 Netscape Communications Corporation needed a way to make web pages more interactive and dynamic.';
+        let p2 = 'Brendan Eich was hired by Netscape to develop a new scripting language for this purpose.';
+        let p3 = 'The language was initially called Mocha and later changed to LiveScript.';
+        let p4 = 'In December 1995, LiveScript was renamed JavaScript, partly to capitalize on the growing popularity of the programming language Java.';
+        let p5 = 'JavaScript was designed to be lightweight, interpreted, and primarily used for client-side scripting to manipulate web page elements in real-time.';
+        let p6 = 'The language was quickly integrated into Netscape Navigator, the leading browser of the time, marking the beginning of JavaScripts role in web development.';
+
+        document.getElementById('output').innerHTML = desc;
+        document.getElementById('output2').innerHTML = p1;
+        document.getElementById('output3').innerHTML = p2;
+        document.getElementById('output4').innerHTML = p3;
+        document.getElementById('output5').innerHTML = p4;
+        document.getElementById('output6').innerHTML = p5;
+        document.getElementById('output7').innerHTML = p6;
+    </script>
+</body>
+</html>
